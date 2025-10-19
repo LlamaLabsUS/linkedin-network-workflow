@@ -1,0 +1,38 @@
+{
+  "name": "linkedin-network-workflow",
+  "version": "1.0.0",
+  "description": "LinkedIn Network Workflow App with RAG Vector Database and Salesforce Integration",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^14.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "@supabase/supabase-js": "^2.38.0",
+    "chromadb": "^1.7.0",
+    "csv-parser": "^3.0.0",
+    "multer": "^1.4.5-lts.1",
+    "next-auth": "^4.24.0",
+    "axios": "^1.6.0",
+    "papaparse": "^5.4.1",
+    "tailwindcss": "^3.3.0",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "typescript": "^5.0.0",
+    "eslint": "^8.0.0",
+    "eslint-config-next": "^14.0.0"
+  },
+  "keywords": ["linkedin", "crm", "salesforce", "vector-database", "rag", "nextjs"],
+  "author": "Product Labs",
+  "license": "MIT"
+}
